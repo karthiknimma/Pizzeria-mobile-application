@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Pizzeria</string>
+    <string name="mainTitleTextView">Hungry?</string>
+    <string name="storePickupSubTitle">Store Pickup</string>
+    <string name="homeDeliverySubTitle">Home Delivery</string>
+    <string name="sizeActivityTitle">"Select Size"</string>
+
+    <string name="sizeSmall">"Small Pizza"</string>
+    <string name="sizeMedium">"Medium Pizza"</string>
+    <string name="sizeLarge">"Large Pizza"</string>
+
+    <string name="deliveryActivityTitle">Delivery Address</string>
+    <string name="deliveryAddressPrompt">"Enter your address here:</string>
+    <string name="ContinueToCrust">"Continue"</string>
+
+    <string name="selectCrustTextView">"Select Crust"</string>
+    <string-array name="CrustTypes">
+        <item>Hand Tossed</item>
+        <item>Handmade Pan</item>
+        <item>Crunchy Thin Crust</item>
+        <item>Brooklyn Style</item>
+        <item>Gluten Crust</item>
+    </string-array>
+
+    <!--    ADD ON ITEMS-->
+    <string name="addOns">"Add-Ons"</string>
+    <string name="continueToAddOn">Continue</string>
+    <string-array name="meatSpinner">
+        <item>Select Meat</item>
+        <item>Chicken (+2$)</item>
+        <item>Beef (+3$)</item>
+        <item>Bacon (+2$)</item>
+        <item>Fish (+4$)</item>
+    </string-array>
+
+    <string-array name="cheeseSpinner">
+        <item>Select Cheese </item>
+        <item>Cheddar</item>
+        <item>American</item>
+        <item>Swiss</item>
+        <item>Cheddar</item>
+    </string-array>
+
+    <string-array name="Veggies">
+        <item>Select one Veggie</item>
+        <item>Tomato (+0.75)</item>
+        <item>Onions (+0.45)</item>
+        <item>Lettuce (+0.45)</item>
+        <item>Mushroom (+0.85)</item>
+    </string-array>
+
+    <string-array name="sauceSpinner">
+        <item>Select Sauce</item>
+        <item>Ranch</item>
+        <item>Mayo</item>
+        <item>Mustard</item>
+        <item>Hot</item>
+    </string-array>
+    <string name="continueToCheckout">"Continue to Checkout"</string>
+
+<!--    Checkout-->
+    <string name="CheckoutActivity">Checkout</string>
+    <string name="amountTxt">"Amount"</string>
+    <string name="taxTxt">"Tax"</string>
+    <string name="totalAmountTxt">"Total Amount"</string>
+    <string name="placeOrderTxt">"Place Order"</string>
+
+    <!--    Pickup activity-->
+    <string name="pickupTitleTxt">Schedule Pickup</string>
+    <string name="address">"We are located at 941 Wilmington Avenue, Dayton, Ohio.</string>
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SizeActivity">
+
+    <TextView
+        android:id="@+id/mainTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/padding10dp"
+        android:text="@string/sizeActivityTitle"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="@dimen/titleTextSize"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/sizeRadBtn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin10dp"
+            android:layout_marginTop="@dimen/margin10dp"
+            android:padding="5dp"
+            android:text="@string/sizeSmall"
+            android:textSize="@dimen/subTitleTextSize" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin10dp"
+            android:layout_marginTop="@dimen/margin10dp"
+            android:padding="10dp"
+            android:text="@string/sizeMedium"
+            android:textSize="@dimen/subTitleTextSize" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin10dp"
+            android:layout_marginTop="@dimen/margin10dp"
+            android:padding="15dp"
+            android:text="@string/sizeLarge"
+            android:textSize="@dimen/subTitleTextSize" />
+    </RadioGroup>
+</LinearLayout>
